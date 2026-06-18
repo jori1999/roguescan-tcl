@@ -1,0 +1,18 @@
+{
+    "known_bad": [
+        {"name": "Meterpreter", "filename": "meterpreter", "sha256": "", "severity": "CRITICAL", "description": "Metasploit Meterpreter payload"},
+        {"name": "Mimikatz", "filename": "mimikatz", "sha256": "", "severity": "CRITICAL", "description": "Credential dumper"},
+        {"name": "Cobalt Strike beacon", "filename": "beacon", "sha256": "", "severity": "CRITICAL", "description": "Cobalt Strike beacon"},
+        {"name": "XMRig miner", "filename": "xmrig", "sha256": "", "severity": "HIGH", "description": "Cryptominer"},
+        {"name": "XMRig config", "filename": "config.json", "sha256": "", "severity": "MEDIUM", "description": "Potential miner config"},
+        {"name": "C2 domain list", "filename": "cobaltstrike.profile", "sha256": "", "severity": "HIGH", "description": "Cobalt Strike profile"},
+        {"name": "Webshell PHP", "filename": "shell.php", "sha256": "", "severity": "CRITICAL", "description": "Webshell"},
+        {"name": "Webshell ASP", "filename": "cmd.asp", "sha256": "", "severity": "CRITICAL", "description": "Webshell"},
+        {"name": "Webshell JSP", "filename": "shell.jsp", "sha256": "", "severity": "CRITICAL", "description": "Webshell"},
+        {"name": "Linux rootkit", "filename": "rootkit", "sha256": "", "severity": "CRITICAL", "description": "Potential rootkit binary"},
+        {"name": "Keylogger", "filename": "keylog", "sha256": "", "severity": "HIGH", "description": "Keylogger"},
+        {"name": "Ransomware note", "filename": "README.txt", "sha256": "", "severity": "MEDIUM", "description": "Potential ransomware note"},
+        {"name": "Ransomware note", "filename": "DECRYPT.txt", "sha256": "", "severity": "MEDIUM", "description": "Potential ransomware note"},
+        {"name": "Ransomware note", "filename": "DECRYPT.html", "sha256": "", "severity": "MEDIUM", "description": "Potential ransomware note"}
+    ]
+}

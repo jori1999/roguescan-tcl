@@ -1,0 +1,3 @@
+#!/bin/sh
+# roguescan wrapper - execs the Tcl script
+exec tclsh8.6 "$(dirname "$0")/roguescan.tcl" "$@"
